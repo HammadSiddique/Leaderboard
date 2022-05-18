@@ -4,9 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
     <title>Leaderboard</title>
 <script defer src="main.js"></script></head>
 <body>
-    <p>hello world</p>
+<header>
+    <h1 class="heading">Leaderboard</h1>
+</header>
+<main>
+    <section class="content-container">
+        <div class="table">
+            <div class="table-header">
+                <h2>Recent Scores</h2>
+                <button class="refresh-btn">Refresh</button>
+            </div>
+            <ul class="table-scores">
+                <li class="score">Name: 100</li>
+                <li class="score">Name: 20</li>
+                <li class="score">Name: 52</li>
+                <li class="score">Name: 78</li>
+                <li class="score">Name: 96</li>
+                <li class="score">Name: 59</li>
+            </ul>
+        </div>
+        <div class="submit-score">
+            <form>
+                <input type="text" placeholder="Your Name" class="name-input">
+                <input type="text" placeholder="Your Score" class="score-input">
+                <input type="submit" value="Submit" class="submit-btn">
+            </form>
+        </div>
+    </section>
+</main>
 </body>
 </html>
