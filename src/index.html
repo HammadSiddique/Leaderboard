@@ -20,19 +20,12 @@
                 <h2>Recent Scores</h2>
                 <button class="refresh-btn">Refresh</button>
             </div>
-            <ul class="table-scores">
-                <li class="score">Name: 100</li>
-                <li class="score">Name: 20</li>
-                <li class="score">Name: 52</li>
-                <li class="score">Name: 78</li>
-                <li class="score">Name: 96</li>
-                <li class="score">Name: 59</li>
-            </ul>
+            <ul class="table-scores"></ul>
         </div>
         <div class="submit-score">
-            <form>
-                <input type="text" placeholder="Your Name" class="name-input">
-                <input type="text" placeholder="Your Score" class="score-input">
+            <form class="submit-game">
+                <input type="text" placeholder="Your Name" class="name-input" required>
+                <input type="number" placeholder="Your Score" class="score-input" required>
                 <input type="submit" value="Submit" class="submit-btn">
             </form>
         </div>
