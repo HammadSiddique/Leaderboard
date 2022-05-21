@@ -2,7 +2,7 @@
 
 # Leaderboard
 
-> In this project, I created a leaderboard. This leaderboard track all the scores provided to it
+> In this project, I created a leaderboard. This leaderboard track all the scores provided to it.
 
 ## Built With
 
@@ -10,9 +10,9 @@
 - Webpack
 - VS code
 
-<!-- ## Live Demo
+## Live Demo
 
-To check out a live-demo of the webiste visit [here](https://hammadsiddique.github.io/Todo-list/dist/index.html). -->
+To check out a live-demo of the webiste visit [here](https://hammadsiddique.github.io/Leaderboard/dist/index.html).
 
 ## Getting Started
 
