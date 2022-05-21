@@ -24,8 +24,8 @@
         </div>
         <div class="submit-score">
             <form class="submit-game">
-                <input type="text" placeholder="Your Name" class="name-input" required>
-                <input type="number" placeholder="Your Score" class="score-input" required>
+                <input type="text" placeholder="Your Name" class="name-input" maxlength="25" required>
+                <input type="number" placeholder="Your Score" class="score-input" min="0" max="100000000" required>
                 <input type="submit" value="Submit" class="submit-btn">
             </form>
         </div>
