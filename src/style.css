@@ -109,13 +109,11 @@ body {
     margin-top: 10%;
   }
 }
-
 @media screen and (max-width: 428px) {
   .content-container {
     align-items: center;
     margin-left: 0;
   }
-
   .submit-score form {
     width: 95%;
   }
