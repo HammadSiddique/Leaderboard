@@ -87,3 +87,40 @@ body {
   color: rgb(212, 212, 212);
   cursor: pointer;
 }
+
+@media screen and (max-width: 768px) {
+  .content-container {
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    margin-left: 5%;
+  }
+
+  .submit-score form {
+    margin-top: 5%;
+    width: 50%;
+  }
+
+  .submit-btn {
+    font-size: 1.2rem;
+  }
+
+  .table {
+    width: 70%;
+    margin-top: 10%;
+  }
+}
+
+@media screen and (max-width: 428px) {
+  .content-container {
+    align-items: center;
+    margin-left: 0;
+  }
+
+  .submit-score form {
+    width: 95%;
+  }
+
+  .table {
+    width: 90%;
+  }
+}
